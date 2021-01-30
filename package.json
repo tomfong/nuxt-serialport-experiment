@@ -1,0 +1,28 @@
+{
+  "name": "serialport-experiment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w server.js -w nuxt.config.js server.js",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nuxt": "^2.14.12",
+    "nuxt-socket-io": "^1.1.14",
+    "serialport": "^9.0.6",
+    "socket.io": "^3.1.0",
+    "socket.io-client": "^3.1.0",
+    "usb-detection": "^4.10.0",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3",
+    "nodemon": "^2.0.7"
+  }
+}
