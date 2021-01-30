@@ -1,4 +1,4 @@
-# serialport-experiment
+# Serialport Experiment with NuxtJS
 
 ## Build Setup
 
